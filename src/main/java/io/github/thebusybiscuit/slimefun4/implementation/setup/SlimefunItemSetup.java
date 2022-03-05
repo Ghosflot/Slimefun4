@@ -974,11 +974,11 @@ public final class SlimefunItemSetup {
         new ItemStack[] {SlimefunItems.PURE_ORE_CLUSTER, null, null, null, null, null, null, null, null})
         .register(plugin);
 
-        new RadioactiveItem(itemGroups.misc, Radioactivity.MODERATE, SlimefunItems.SMALL_URANIUM, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(itemGroups.misc, Radioactivity.MODERATE, SlimefunItems.SMALL_URANIUM, RecipeType.ENHANCED_CRAFTING_TABLE,
         new ItemStack[] {SlimefunItems.TINY_URANIUM, SlimefunItems.TINY_URANIUM, SlimefunItems.TINY_URANIUM, SlimefunItems.TINY_URANIUM, SlimefunItems.TINY_URANIUM, SlimefunItems.TINY_URANIUM, SlimefunItems.TINY_URANIUM, SlimefunItems.TINY_URANIUM, SlimefunItems.TINY_URANIUM})
         .register(plugin);
 
-        new RadioactiveItem(itemGroups.resources, Radioactivity.HIGH, SlimefunItems.URANIUM, RecipeType.ENHANCED_CRAFTING_TABLE,
+        new SlimefunItem(itemGroups.resources, Radioactivity.HIGH, SlimefunItems.URANIUM, RecipeType.ENHANCED_CRAFTING_TABLE,
         new ItemStack[] {SlimefunItems.SMALL_URANIUM, SlimefunItems.SMALL_URANIUM, null, SlimefunItems.SMALL_URANIUM, SlimefunItems.SMALL_URANIUM, null, null, null, null})
         .register(plugin);
 
